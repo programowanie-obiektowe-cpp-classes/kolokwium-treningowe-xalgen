@@ -1,0 +1,14 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/zad3.dir/link.d"
+  "CMakeFiles/zad3.dir/src/tests_main.cpp.o"
+  "CMakeFiles/zad3.dir/src/tests_main.cpp.o.d"
+  "CMakeFiles/zad3.dir/src/zad3.cpp.o"
+  "CMakeFiles/zad3.dir/src/zad3.cpp.o.d"
+  "zad3"
+  "zad3.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/zad3.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

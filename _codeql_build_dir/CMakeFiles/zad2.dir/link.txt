@@ -1,0 +1,1 @@
+/home/runner/work/kolokwium-treningowe-xalgen/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ -O3 -DNDEBUG -Wl,--dependency-file=CMakeFiles/zad2.dir/link.d CMakeFiles/zad2.dir/src/zad2.cpp.o CMakeFiles/zad2.dir/src/tests_main.cpp.o -o zad2
