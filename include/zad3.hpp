@@ -2,4 +2,8 @@
 #include <cstdint>
 #include <functional>
 
-// tutaj funkcja polejSosem
+template < typename Sos >
+std::size_t polejSosem(const Tagliatelle& makaron, const Sos& sos)
+{
+    return sos.polej(makaron);
+}

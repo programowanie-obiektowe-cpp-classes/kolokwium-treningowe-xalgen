@@ -4,6 +4,11 @@
 #include <string>
 #include <type_traits>
 
-// tutaj klasa Penne
+class Penne : public Makaron
+{
+public:
+    double ileMaki(unsigned P) override const { return P * L * W * (1. - R) * C; }
+
+};
 
 // tutaj definicja metody gotujMakaron
